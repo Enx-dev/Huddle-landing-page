@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://64dc2e4a033c5b1b49c2107e--vocal-liger-707a15.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/html-7goJqmVf9N)
+- Live Site URL: [Live site](https://64dc2e4a033c5b1b49c2107e--vocal-liger-707a15.netlify.app/)
 
 ### Built with
 
@@ -51,6 +51,6 @@ Adding of Animations
 
 ## Author
 
-- Website - [Add your name here](https://www.enx.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Enx-dev)
-- Twitter - [@yourusername](https://www.twitter.com/Enx_Dev)
+- Website - [Enx_dev](https://www.enx.vercel.app)
+- Frontend Mentor - [@Enx_dev](https://www.frontendmentor.io/profile/Enx-dev)
+- Twitter - [@Enx_dev](https://www.twitter.com/Enx_Dev)

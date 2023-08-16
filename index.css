@@ -13,9 +13,7 @@ img {
 body {
   background: url("./images/bg-mobile.svg"), hsl(257, 40%, 49%);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: cover;
-  overflow-y: auto;
 }
 body .attribution {
   color: white;
@@ -28,7 +26,8 @@ body .attribution a {
   text-decoration: none;
 }
 body main {
-  padding: clamp(2rem, 5vw, 6rem);
+  padding-inline: clamp(2rem, 5vw, 6rem);
+  padding-block: clamp(2rem, 5vw, 6rem);
 }
 body .nav {
   width: 100%;
@@ -79,7 +78,7 @@ body .main__text button {
   border-radius: 30000rem;
   border: none;
   padding-inline: 6rem;
-  padding-block: 1rem;
+  padding-block: 0.8rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
@@ -141,9 +140,12 @@ body .links img:after {
 @media (min-width: 1200px) {
   body {
     background: url("./images/bg-desktop.svg"), hsl(257, 40%, 49%);
-    background-position: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+  }
+  body main {
+    padding-block: 2rem;
+    height: 100vh;
   }
   body .main {
     align-items: end;
@@ -155,20 +157,22 @@ body .links img:after {
   }
   body .main__img {
     width: 100%;
+    margin-bottom: 0;
   }
   body .main__text {
     width: 70%;
+    padding-top: 3rem;
     text-align: left;
     display: block;
   }
   body .main__text p {
-    font-size: clamp(0.5rem, 6vw, 1.3rem);
+    font-size: clamp(0.5rem, 3vw, 1rem);
     font-weight: 300;
     line-height: 1.7em;
   }
   body .main__text button {
     cursor: pointer;
-    padding-inline: 5rem;
+    padding-inline: 4rem;
   }
   body .links {
     display: flex;
@@ -176,15 +180,16 @@ body .links img:after {
     width: max-content;
     align-items: flex-end;
     justify-items: flex-end;
-    gap: 1.3rem;
-    margin-top: 3rem;
+    gap: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
   body .links span {
     border-radius: 50%;
     border: 1px solid white;
     padding: 0.5rem;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-items: center;
     align-items: center;

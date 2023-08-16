@@ -1,31 +1,38 @@
 @media (min-width:1200px){ 
     body{
         background: url("./images/bg-desktop.svg"), $Violet;
-        background-position: 100% 100%;
         background-repeat: no-repeat;
-        background-size: cover;
+        height: 100vh;
+        // background-size: cover;
+        main{
+            padding-block: 2rem;
+            height: 100vh;
+        }
         .main{
             align-items: end;
             margin-top: 4rem;
+            
            &__content{
             display: flex;
             gap: 3rem;
            }
             &__img{
                 width: 100%;
+                margin-bottom: 0;
             }
             &__text{
                 width: 70%;
+                padding-top: 3rem;
                 text-align: left;
                 display: block;
                 p{
-                    font-size: clamp(0.5rem, 6vw, 1.3rem);
+                    font-size: clamp(0.5rem, 3vw, 1rem);
                     font-weight: 300;
                     line-height: 1.7em;
                 }
                 button{
                     cursor: pointer;
-                    padding-inline: 5rem;
+                    padding-inline: 4rem;
                    
                 }
             }
@@ -36,15 +43,16 @@
             width: max-content;
             align-items: flex-end;
             justify-items: flex-end;
-            gap: 1.3rem;
-            margin-top: 3rem;
+            gap: 1rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
     
             span{
                 border-radius: 50%;
                 border: 1px solid white;
                 padding: 0.5rem;
-                width: 3rem;
-                height: 3rem;
+                width: 2rem;
+                height: 2rem;
                 display: flex;
                 justify-items: center;
                 align-items: center;
