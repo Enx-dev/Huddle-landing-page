@@ -1,0 +1,16 @@
+$Mobile: 375px;
+$Desktop: 1440px;
+
+$Violet: hsl(257, 40%, 49%);
+$Soft_Magenta: hsl(300, 69%, 71%);
+
+
+
+$Heading_font: 'Open Sans', sans-serif;
+$Body_font: 'Poppins', sans-serif;
+
+@mixin transtion {
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-property: all;
+}
